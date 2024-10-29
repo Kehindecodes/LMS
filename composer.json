@@ -1,0 +1,22 @@
+{
+    "name": "kehinde/library-management-system",
+    "description": "A library management system",
+    "autoload": {
+        "psr-4": {
+            "Controller\\" : "src/Controller/",
+            "Model\\" : "src/Model/",
+            "Enum\\" : "src/Enum/",
+            "Middleware\\" : "src/Middleware/",
+            "App\\Trait\\" : "src/Trait/"
+        } 
+    },
+    "authors": [
+        {
+            "name": "Kehinde Oki",
+            "email": "kehinde.oki@abbaandking.com"
+        }
+    ],
+    "require": {
+        "webmozart/assert": "^1.11"
+    }
+}
